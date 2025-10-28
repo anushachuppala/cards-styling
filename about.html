@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cards {
+        display: grid;
+        grid-template-columns: 20px 20px 20px 20px;
+        grid-template-rows: auto;
+        gap: 320px;
+      }
+      div {
+        width: 300px;
+        height: 400px;
+        background-color: gray;
+      }
+      img:hover {
+        animation: calc(2);
+        transform: scale(1.3);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="cards">
+        <div><img src="./img1.avif" />1</div>
+        <br />
+        <div><img src="./img2.avif" /> 2</div>
+        <br />
+        <div><img src="./img3.avif" />3</div>
+        <br />
+        <div><img src="./img4.avif" />4</div>
+        <br />
+      </div>
+    </section>
+  </body>
+</html>
